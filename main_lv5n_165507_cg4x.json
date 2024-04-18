@@ -1,0 +1,72 @@
+97 / 42
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+13,49,4,80,23,14,54,93,16,40,91,32,78,33,50,15,65,8,93,8,92,92 + kiwi
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+58,86,0,50,28,48,63,74,4,49,61,94,88,70,47,66,7,48,27,79,30,20,82,98,80,58,50,41,38,40,38,23,50,7,19,50,16,33,31,26,94,70,36,44,59,99,50,54,20,4,37,14,54,40,69,65,61,1,73,59,22,93,61,40,13,54,9,7 / 90,54,18,94,72,46,24,7,84,13,69,27,75,0,63,35,29,64,42,12,14,34,23,35,90,20,4,21,75,69,75,46,99,52,67,15,44,11,81,70,18,45,33,90,83,29,37,84,15,94,20,42,39,59,84,5,1,61,62,11,76,45,79,67,75,21,45,91,96,39,31,89,40,25
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const findLargestNumber = numbers => Math.max(...numbers);
+62,17,4,92,28,51,64,9,56,6,59,96,13,95,56,52,44,30,64,18,46,68,40,16,45,32,7,66,35,46,97,49,79,62,6,30,28,52,26,88,65,61,37,15,92,11,84,39,52,42,17,25,5,49,23,19,96,42,70,91,85,29,11,41,10,44,36,56,83,8,70,64,82,59,83,20,96,4,31,13,56,80,61,17,74,46,80,43,67,59,22,57,73,53,56,17,92,22,13 + 84
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+orange
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+48 * orange
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getUniqueValues = array => [...new Set(array)];
+const squareRoot = num => Math.sqrt(num);
+58,0,43,45,46,91,62,8,24,22,99,14,96,87,18,90,41,26 / orange
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+apple - true
+const isPalindrome = str => str === str.split("").reverse().join("");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+console.log(getRandomString());
+
+7 * 28
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+grape
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const isEven = num => num % 2 === 0;
+false - kiwi
+
+console.log(getRandomString());
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+kiwi / true
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+grape
+
+const multiply = (a, b) => a * b;
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+27,62,80,29,97,33,66,54,29,68,11,97,67,62,99,25,69,61,43,11,76,16,58,31,59,6 / 0
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const findLargestNumber = numbers => Math.max(...numbers);
+
+banana
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+61 / 82
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
