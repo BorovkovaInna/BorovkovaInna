@@ -1,0 +1,74 @@
+false - kiwi
+// This is a comment
+grape
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sum = (a, b) => a + b;
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+86,89,33,63,9,28,51,30,57,30,85,99,83,12,90,86,87,9,62,54,24,29,90,92,2,97,52,54,3,14,74,65,55,83,62,6,84,35,8,47,14,43,58,40,14,47,10,20,24,37,41,35,16,59,39,62,3,2,9,12,74,89,96,16,45,18,26,46,80 * true
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+banana
+
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+48 * 27
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const getUniqueValues = array => [...new Set(array)];
+
+// This is a comment
+37,24,31,41,55,35,96,54,56,43,52,32,59,24,39,78,77,64,88,55,48,61,23,34,26,73,83,33,21,47,87,86,9,5,93,22,59,53,89,79,39,14,69,5,73,87,10,4,5,51,43,88,26,15,25,53,87,33,22,18,68,68,55,69,72,41,15,27,68,69,47,32,37,88,65 + 35
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+31,68,83,91,38,57,69,69,8,74,77,98,94,64,38,92,14,44,45,39,7 + 9
+const greet = name => `Hello, ${name}!`;
+orange
+
+console.log(getRandomString());
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const sum = (a, b) => a + b;
+const removeDuplicates = array => Array.from(new Set(array));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false + 23
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+banana
+
+const sum = (a, b) => a + b;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const getUniqueValues = array => [...new Set(array)];
+const greet = name => `Hello, ${name}!`;
+10,75,38,69,86,21,16,64,99,22,22,66,60,35,41,91,46,64,93,20,76,92,93,53,2,99,68,86,74,0,90,47,99,29,58,90,74,10,35,97,78,30,28,20,97,18,49,0,91,89,58,74,34,50,56,93,42,28,10,17,60,57,32,59,45,55,9,43,27,61,12,35,75,75,66,1,52,94,15,21,98,71,59,49,62,30,25,67,9,63,46,68,94,84,4,12,2,87,2 * 10
+function addNumbers(a, b) { return a + b; }
+49 * banana
+const sum = (a, b) => a + b;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+50,88,87,4,1 / grape
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+62 / banana
+const isPalindrome = str => str === str.split("").reverse().join("");
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+75,76,87,24,74,34,6,42,64,19,36,56,47,48,9,25,46,54,71,30,52,13,36,19,48,26,12,5,67,5,20,64,78,55,74,32,52,87,6,29,94,97,59,43,57,20,47,12,34,59,57,71,60,16,92,21,57,82,3,30,14,69,49,39,31,7,86,90,48,15,14,28,17,64,74,67 - 92
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const greet = name => `Hello, ${name}!`;
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+71 / true
+
+console.log(getRandomString());
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+0 - true
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
